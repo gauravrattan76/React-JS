@@ -10,8 +10,8 @@ const Hello = () => {
     //     </div>
     // )
     return React.createElement('div',
-    {id:'content',className:'mainClass'},
-   React.createElement('h1',null,'How are you buddy!!')
+        { id: 'content', className: 'mainClass' },
+        React.createElement('h1', null, 'How are you buddy!!')
     )
 }
 
