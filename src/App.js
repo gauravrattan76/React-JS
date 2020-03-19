@@ -15,11 +15,13 @@ import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Form from './components/Form';
 import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 
 function App() {
   return (
     <div className="App">
-      <PostList></PostList>
+      <PostForm></PostForm>
+      {/* <PostList></PostList> */}
       {/* <Form></Form> */}
       {/* <Stylesheet primary={true}></Stylesheet> */}
       {/* <NameList></NameList> */}
