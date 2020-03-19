@@ -13,11 +13,13 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <Stylesheet primary={true}></Stylesheet>
+      <Form></Form>
+      {/* <Stylesheet primary={true}></Stylesheet> */}
       {/* <NameList></NameList> */}
       {/* <EventBind></EventBind> */}
       {/* <ParentComponent></ParentComponent> */}
