@@ -14,11 +14,13 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Form from './components/Form';
+import PostList from './components/PostList';
 
 function App() {
   return (
     <div className="App">
-      <Form></Form>
+      <PostList></PostList>
+      {/* <Form></Form> */}
       {/* <Stylesheet primary={true}></Stylesheet> */}
       {/* <NameList></NameList> */}
       {/* <EventBind></EventBind> */}
