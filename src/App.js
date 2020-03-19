@@ -11,6 +11,8 @@ function App() {
   return (
     <div className="App">
       <Counter></Counter>
+      <Greet name="Batman" heroName="Ironman"></Greet>
+      <Welcome name="Gaurav" heroName="superman"></Welcome>
       {/* <Message></Message> */}
       {/* <Greet name="Gaurav" heroName="superman">
         <h4>This is the super man kingdom</h4>

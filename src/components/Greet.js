@@ -4,12 +4,23 @@ import React from 'react'
 //     return <h1>Hello Gaurav Rattan!!</h1>
 // }
 
+// const Greet = ({name,heroName}) => {
+//     // console.log(props);
+//     return (
+//         <div>
+//             <h1>Hello {name} how are you buddy and heroname is {heroName}!!!</h1>
+//             {/* {props.children} */}
+//         </div>
+//     )
+// }
+
 const Greet = props => {
-    console.log(props);
+    const {name,heroName} = props
+    // console.log(props);
     return (
         <div>
-            <h1>Hello {props.name} how are you buddy and heroname is {props.heroName}!!!</h1>
-            {props.children}
+            <h1>Hello {name} how are you buddy and heroname is {heroName}!!!</h1>
+            {/* {props.children} */}
         </div>
     )
 }
