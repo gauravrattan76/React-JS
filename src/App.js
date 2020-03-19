@@ -16,11 +16,15 @@ import Stylesheet from './components/Stylesheet';
 import Form from './components/Form';
 import PostList from './components/PostList';
 import PostForm from './components/PostForm';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
     <div className="App">
-      <PostForm></PostForm>
+      <ClickCounter></ClickCounter>
+      <HoverCounter></HoverCounter>
+      {/* <PostForm></PostForm> */}
       {/* <PostList></PostList> */}
       {/* <Form></Form> */}
       {/* <Stylesheet primary={true}></Stylesheet> */}
