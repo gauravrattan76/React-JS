@@ -11,12 +11,18 @@ import React, { Component } from 'react'
          this.eventHandler =this.eventHandler.bind(this)
      }
      //this is undefined in event handler so event binding is required in react
-     eventHandler(){
-         this.setState({
-             message: "Good bye"
-         })
-        console.log(this);
-     }
+    //  eventHandler(){
+    //      this.setState({
+    //          message: "Good bye"
+    //      })
+    //     console.log(this);
+    //  }
+    eventHandler = () =>
+    {
+       return this.setState({
+            message: "Good bye"
+        })
+    }
      
     render() {
         return (
