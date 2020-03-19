@@ -1,0 +1,22 @@
+{
+  "persons" :[
+    {
+        "id": 1,
+        "name": "Gaurav",
+        "age": 28,
+        "skill": "Angular"
+    },
+    {
+      "id": 2,
+      "name": "Zaheer",
+      "age": 28,
+      "skill": "React"
+  },
+  {
+    "id": 3,
+    "name": "Mradul",
+    "age": 28,
+    "skill": "Vue"
+}
+]
+}
