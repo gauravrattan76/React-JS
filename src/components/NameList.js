@@ -23,7 +23,8 @@ function NameList() {
         }
     ]
     const personList = persons.map(person => (
-        <Person person={person}></Person>
+        //key prop are not available in the child component
+        <Person key={person.id} person={person}></Person>
     //    <Person person={person}></Person>
     ))
     return <div>{personList}</div>
