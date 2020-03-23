@@ -18,12 +18,14 @@ import PostList from './components/PostList';
 import PostForm from './components/PostForm';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import CSV from './components/CSV';
 
 function App() {
   return (
     <div className="App">
-      <ClickCounter></ClickCounter>
-      <HoverCounter></HoverCounter>
+      <CSV></CSV>
+      {/* <ClickCounter></ClickCounter>
+      <HoverCounter></HoverCounter> */}
       {/* <PostForm></PostForm> */}
       {/* <PostList></PostList> */}
       {/* <Form></Form> */}
